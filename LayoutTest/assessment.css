@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-family: sans-serif;
+}
+header{
+    padding: 0.5rem 1.5rem 0 1.5rem;
+    background-color: #ffd900;
+}
+.first{
+    display:flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style: none;
+    display:flex;
+    padding-right:3rem;
+    padding-top:.7rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    padding-bottom:.5rem;
+}
+#right-logo{
+    padding-top: .7rem;
+}
+.navbar ul li:not(:last-child){
+    border-right: 1px solid black;
+}
+.navbar ul li{
+    font-size: 1.3rem;
+    padding:0 1rem 0 1rem;
+}
+
+/* body{
+    /* background-image: url("backgroung-image.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background: rgb(158, 228, 255); 
+} */
+#main-content{
+    background: url("background-image.png") no-repeat center center/cover;
+    height: 500px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: cyan;
+    opacity: 0.4;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;  */
+}
+
+.paragraph{
+    padding: 4rem 4rem 0 6rem;
+    /* z-index: 1; */
+    
+}
+
+.paragraph p{
+    font-size: 1.8rem;
+    color: rgb(94, 101, 139);
+}
+
+.test{
+    padding-top: 1rem;
+}
+
+#btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: 0.1rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    background-color: rgb(248, 83, 111);
+    color: white;
+    border: none;
+    
+}
+
+.form{
+    margin: 4rem 4rem 0 0;
+    background: white;
+    width: 22vw;
+    height: 40vh;
+    text-align: center;
+    padding: 1rem;
+    /* z-index: 1; */
+}
+
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1.3rem;
+    padding-bottom: 0.2rem;
+    width: 15rem;
+}
+
+.form h3{
+    font-weight: 400;
+    padding-bottom: 0.2rem;
+}
+
+.form p{
+    font-size: 75%;
+    color: orangered;
+    padding-bottom: 1rem;
+}
+
+/* .submit{
+    padding-top: 1rem;
+} */
+
+#submit-btn{
+    
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: large;
+}
+
+.footer{
+    background-color: rgb(0, 0, 218);
+    /* height: 200px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback{
+    padding: 3rem 0 4rem 6rem;
+}
+
+.feedback img{
+    padding: 0.6rem;
+    background-color: rgb(42, 132, 250);
+    border-radius: 50%;
+}
+
+.feedback p{
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 0.5rem;
+}
+
+.customerimage img{
+    border-radius: 50%;
+    padding-top: 1rem;
+}
+
+.customer p{
+    color: white;
+    padding-right: 3rem;
+    line-height: 1.5rem;
+    /* font-size: small; */
+}
+
+.customer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 4rem 2rem 0;
+}
+
+.firstcustomer .customerimage p{
+    float: right;
+    padding-top: 1.3rem;
+    padding-right: 11rem;
+}
+
+.secondcustomer .customerimage p{
+    float: right;
+    padding-top: 1.3rem;
+    padding-right: 8rem;
+}
